@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>时间查询网站</title>
+    <style>
+      body{
+        background-color: rgb(237, 239, 231);
+        text-align: center;
+      }
+      .size{
+        color: rgb(0, 26, 255);
+      }
+    </style>
+    <script>
+      function displayData(){
+        document.getElementById("demo").innerHTML=Date();
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="size">
+      <b>时间查询网站Time website</b>
+    </h1>
+    <h3 class="size">
+      <b>c0de&copy;</b>
+    </h3>
+    <p id="demo">点击按钮即可查询时间</p>
+    <button type="button" onclick="displayData()">
+      <p style="color: red;font-size: 15px;">显示当前时间</p>
+    </button>
+  </body>
+</html>
